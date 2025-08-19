@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "def-bot",
   "private": true,
   "version": "0.0.0",
@@ -28,5 +29,23 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "vite": "^7.1.2"
+=======
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+>>>>>>> df45a97c708d638da951f8cc324ad07fb8ad3356
   }
 }
