@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional custom styles */
+html, body, #root {
+  height: 100%;
+}
+/* Animated leaves */
+@keyframes floatLeaf {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(-20px) translateX(10px) rotate(15deg);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+    opacity: 0.4;
+  }
+}
+
+.leaf {
+  position: absolute;
+  animation: floatLeaf 6s ease-in-out infinite;
+  pointer-events: none;
+}
